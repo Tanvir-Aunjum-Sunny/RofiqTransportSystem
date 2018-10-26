@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "274687911139",
+    "firebase_url": "https://rafiqtransportservice-8d16a.firebaseio.com",
+    "project_id": "rafiqtransportservice-8d16a",
+    "storage_bucket": "rafiqtransportservice-8d16a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274687911139:android:cabd8d31fdcbab32",
+        "android_client_info": {
+          "package_name": "com.example.tanvir.rafiqtransportservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "274687911139-1gb6s46bcbtrgvg9j58lih9jel1lqf31.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tanvir.rafiqtransportservice",
+            "certificate_hash": "940cb761a46e6922213abf371cfbf1a769374217"
+          }
+        },
+        {
+          "client_id": "274687911139-jt1082prcnnc8n0pc5fbr22b7dq8rtmp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB85LMYFHB0ARgRT3b7iBBirVEzhZ0zkxU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "274687911139-jt1082prcnnc8n0pc5fbr22b7dq8rtmp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

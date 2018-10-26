@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.InsertData">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <EditText
+        android:id="@+id/eTdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:hint="তারিখ"/>
+
+        <EditText
+            android:id="@+id/eTtime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="সময়"/>
+
+        <EditText
+            android:id="@+id/eTtransportName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ট্রান্সপোর্টের নাম" />
+
+        <EditText
+            android:id="@+id/eTload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="লোড" />
+
+        <EditText
+            android:id="@+id/eTunLoad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="আনলোড" />
+
+        <EditText
+            android:id="@+id/eTrent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ভাড়া" />
+
+        <EditText
+        android:id="@+id/eTadvance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="অগ্রিম" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+            <RadioButton
+                android:id="@+id/Radpaid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="পরিশোধ" />
+
+            <RadioButton
+                android:id="@+id/RadunPaid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="পরিশোধ না" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/BtndataEntry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ডাটা এন্ট্রি করুন" />
+    </LinearLayout>
+
+</RelativeLayout>
